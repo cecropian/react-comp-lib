@@ -9,7 +9,7 @@ class Example extends React.Component {
   }
 
   toggleCode = event => {
-    event.prevenDefault();
+    event.preventDefault();
     this.setState(prevState => {
       return { showCode: !prevState.showCode };
     });

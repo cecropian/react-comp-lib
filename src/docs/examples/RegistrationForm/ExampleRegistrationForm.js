@@ -11,7 +11,6 @@ export default class ExampleRegistrationForm extends React.Component {
   }
 
   onSubmit = (user) => {
-    //this.prevenDefault();
     console.log(user);
   }
 
